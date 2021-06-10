@@ -1,0 +1,465 @@
+    1  cls
+    2  ls
+    3  h
+    4  clear
+    5  cd desktop
+    6  dir
+    7  ls
+    8  clear
+    9  cd code projects\python
+   10  cd code projects
+   11  cd "code projects"
+   12  cd "python/django"
+   13  cd campus-delivery/
+   14  ls
+   15  git config --global user.name "Tebogo Lemekoana"
+   16  git config --global user.email "mtlemekoana@gmail.com"
+   17  git config --global push.default matching
+   18  git config --global alias.co checkout
+   19  git init
+   20  clear
+   21  git add .
+   22  clear
+   23  git commit -am 'initial commit'
+   24  clear
+   25  pmd
+   26  pwd
+   27  ls
+   28  cd `/
+   29  pwd
+   30  quit
+   31  cd `/
+   32  pwd
+   33  quit() exit
+   34  cd ~/
+   35  ped
+   36  pwd
+   37  mkdir .ssh
+   38  cd .ssh
+   39  pws
+   40  pwd
+   41  clear
+   42  ls
+   43  ssh-keygen.exe
+   44  ls
+   45  cat id_rsa.pub
+   46  cd desktop
+   47  cd..
+   48  cd ..
+   49  cd ..
+   50  cd tbg\desktop
+   51  cd tbg/desktop
+   52  cd "code projects/python/django/"
+   53  cd campus-delivery/
+   54  clear
+   55  ls
+   56  clear
+   57  git remote add origin https://github.com/LesdoCode/campus-delivery.git
+   58  git branch -M main
+   59  git push -u origin main
+   60  cd desktop
+   61  cd code projects
+   62  cd "desktop/code projects/python/django/campus-delivery"/
+   63  clear
+   64  heroku --version
+   65  git config --global user.name "Tebogo Lemekoana"
+   66  git config --global user.email "mtlemekoana@gmail.com"
+   67  git config --global user.email "lesdocode@gmail.com"
+   68  git config --global push.default matching
+   69  git config --global alias.co checkout
+   70  clear
+   71  ls
+   72  pip install gunicorn
+   73  pip install django-heroku
+   74  pip install dj_database_url
+   75  pip install python-decouple
+   76  touch Procfile
+   77  pip freeze
+   78  pip freeze > requirements.txt
+   79  clear
+   80  git add .
+   81  git commit -am "server ready MVP"
+   82  git push
+   83  heroku login
+   84  heroku keys:add
+   85  clear
+   86  heroku create
+   87  heroku rename campusdelivery
+   88  git push heroku master
+   89  git push heroku main
+   90  heroku config:set DISABLE_COLLECTSTATIC=1
+   91  git push heroku main
+   92  heroku logs --tail
+   93  ls
+   94  pwd
+   95  cd desktop/
+   96  cd Code\ projects/Python/Django/campus-delivery/
+   97  git init
+   98  ls
+   99  dir
+  100  clear
+  101  ped
+  102  pwd
+  103  python manage.py runserver
+  104  python manage.py runserver
+  105  clear
+  106  git add .
+  107  git commit -am "settings fix for heroku app error"
+  108  git push
+  109  git push
+  110  heroku login
+  111  git push heroku master
+  112  git push heroku main
+  113  git add .
+  114  git commit -am "settings fix for allowed hosts"
+  115  git push
+  116  git push heroku master
+  117  git push heroku main
+  118  git add .
+  119  git commit -am "fixed relation doesnt exist error. Had to migrate"
+  120  git push
+  121  git push heroku main
+  122  git add .
+  123  git commit -am "not using categories model"
+  124  git push
+  125  git push heroku main
+  126  git add .
+  127  git commit -am "updated views.py to regocnise categories"
+  128  git push
+  129  git push heroku main
+  130  clear
+  131  heroku logs --tail
+  132  clear
+  133  clear
+  134  git add .
+  135  git commit -am "modified settings.py debug, allowedhosts"
+  136  git push
+  137  git push heroku master
+  138  git push heroku main
+  139  git add .
+  140  git commit -am "debug = false"
+  141  git push
+  142  git push heroku main
+  143  heroku logs --tail
+  144  git add .
+  145  git commit -am "debug = false"
+  146  git push
+  147  git push heroku main
+  148  heroku logs --tail
+  149  git add .
+  150  git commit -am "debug = false"
+  151  git push
+  152  git push heroku main
+  153  heroku run python manage.py migrate
+  154  heroku run python manage.py check
+  155  heroku run python manage.py check
+  156  heroku run python manage.py createsuperuser
+  157  git add .
+  158  git commit -am "fixed everything to how ap should run normally"
+  159  git push
+  160  heroku login
+  161  ls
+  162  cd desktop/
+  163  cd Code\ projects/Python/Django/campus-delivery/
+  164  ls
+  165  dir\
+  166  dir
+  167  heroku login
+  168  heroku login
+  169  heroku logout
+  170  pwd
+  171  pwd
+  172  ls
+  173  cd Desktop/Code\ projects/Python/Django/campus-delivery/
+  174  git commit -am "final commits before new features"
+  175  ls
+  176  cd Desktop/Code\ projects/Python/Django/campus-delivery/
+  177  ls
+  178  python manage.py runserver
+  179  cd Desktop/Code\ projects/Python/Django/campus-delivery/
+  180  git add .
+  181  git commit -am "new mods to suite on and off campus deliveries"
+  182  cd Desktop/Code\ projects/Python/Django/campus-delivery/
+  183  git add .
+  184  git commit -am "fixed all checkout pages and about to start with track orders"
+  185  cd Desktop/Code\ projects/Python/Django/campus-delivery/
+  186  git add .
+  187  git commit -am "fixed all checkout pages and about to start with track orders"
+  188  git push
+  189  git add .
+  190  cd Desktop/Code\ projects/Python/Django/campus-delivery/
+  191  git add .
+  192  git commit -am "completed driver site and store. Just need to fix decline order"
+  193  heroku login
+  194  git push
+  195  heroku run python manage.py check
+  196  heroku run python manage.py migrate
+  197  pwd
+  198  pwd
+  199  git add .
+  200  cd Desktop/Code\ projects/Python/Django/campus-delivery/
+  201  git add .
+  202  git commit -am 'about to start customer track order page'
+  203  clear
+  204  heroku login
+  205  heroku run python manage.py migrate
+  206  heroku run python manage.py check
+  207  heroku run python manage.py migrate
+  208  heroku ls
+  209  heroku run python manage.py migrate
+  210  --help
+  211  heroku run python manage.py --help
+  212  heroku run python manage.py migrate
+  213  git push
+  214  cd Desktop/Code\ projects/Python/Django/campus-delivery/
+  215  git push
+  216  heroku python manage.py migrate
+  217  heroku run python manage.py migrate
+  218  clear
+  219  git add .
+  220  git add .
+  221  git commit -am "Removed area field from address."
+  222  git push
+  223  heroku run python manage.py migrate
+  224  heroku run python manage.py migrate
+  225  clear
+  226  git add .
+  227  git commit -am "changed address- area to a foreign key field"
+  228  git add .
+  229  git commit -am "address area is not a foreign key"
+  230  git push
+  231  git add .
+  232  git commit -am "redone all migrations"
+  233  git push
+  234  heroku run python manage.py check
+  235  heroku run python manage.py migrate
+  236  heroku run python manage.py showmigrations
+  237  git push heroku main
+  238  heroku run python manage.py migrate
+  239  heroku run
+  240  heroku run python manage.py makemigrations
+  241  heroku run python manage.py migrate
+  242  heroku run python manage.py makemigrations
+  243  heroku run python manage.py migrate
+  244  heroku run python manage.py migrate
+  245  heroku run python manage.py createsuperuser
+  246  pwd
+  247  cd desktop
+  248  cd Code\ projects/Python/Django/
+  249  djangoadmin help
+  250  django-admin help
+  251  django-admin startproject
+  252  django-admin startproject find_a_builder
+  253  cd find_a_builder/
+  254  ls
+  255  python manage.py startapp
+  256  python manage.py startapp clients
+  257  ls
+  258  cd clients
+  259  ls
+  260  touch urls.py
+  261  cd ..
+  262  cd Desktop/Code\ projects/Python/Django/find_a_builder/
+  263  git add .
+  264  git commit -am "just created the repository"
+  265  clear
+  266  python manage.py startapp builders
+  267  cd builders
+  268  touch urls.py
+  269  python manage.py runserver
+  270  cd ..
+  271  python manage.py runserver
+  272  git add .
+  273  git commit -am "about to start UI design. Done with builer models.py"
+  274  clear
+  275  cd ..
+  276  cd campus-delivery/
+  277  git push heroku main
+  278  git push
+  279  git add .
+  280  git commit -am "ready for presenting"
+  281  git push
+  282  git push heroku main
+  283  cd Desktop/Code\ projects/Python/Django/LesdoCivil/
+  284  python manage.py startapp contractors
+  285  python manage.py startapp clients
+  286  cd clients/
+  287  touch urls.py
+  288  cd ..
+  289  cd contractors/
+  290  touch urls.py
+  291  cd..
+  292  cd ..
+  293  ls
+  294  pwd
+  295  python manage.py runserver
+  296  clear
+  297  python manage.py runserver
+  298  python manage.py runserver
+  299  python manage.py runserver
+  300  python manage.py runserver
+  301  python manage.py runserver
+  302  python manage.py runserver
+  303  python manage.py runserver
+  304  python manage.py runserver
+  305  git add .
+  306  git commit -am "first commit"
+  307  python --version
+  308  pip install django-phonenumber-field[phonenumbers]
+  309  -m pip install --upgrade pip
+  310  python -m pip install --upgrade pip
+  311  python freeze
+  312  pip freeze
+  313  pip install django-phonenumber-field
+  314  git push
+  315  python manage.py runserver
+  316  python manage.py makemigrations
+  317  python manage.py migrate
+  318  python manage.py runserver
+  319  python manage.py runserver 192.168.43.121
+  320  python manage.py runserver 192.168.43.121:8000
+  321  python manage.py runserver 192.168.43.121:8000
+  322  python manage.py runserver
+  323  python manage.py runserver
+  324  python manage.py makemigrations
+  325  python manage.py migrate
+  326  python manage.py runserver
+  327  python manage.py createsuperuser
+  328  admin
+  329  python manage.py createsuperuser
+  330  python manage.py createsuperuser
+  331  python manage.py runserver
+  332  python manage.py runserver
+  333  python manage.py runserver
+  334  python manage.py runserver
+  335  python manage.py runserver
+  336  cd Desktop/Code\ projects/Python/Django/LesdoCivil/
+  337  git add 
+  338  git init -am "Migrated to django forms (create and update working)"
+  339  git commit -am "Migrated to django forms (create and update working)"
+  340  git push
+  341  touch .gitignore
+  342  git log
+  343  git log --oneline
+  344  ls
+  345  clear
+  346  cd desktop
+  347  cd /
+  348  cd ~
+  349  cd Desktop/
+  350  cd
+  351  ls -l
+  352  ls
+  353  ls -R
+  354  cd desktop
+  355  ls
+  356  mkdir balls
+  357  ls
+  358  rmdir balls
+  359  cd Desktop/Code\ projects/
+  360  ls
+  361  cd JavaScript/
+  362  ls
+  363  cd umuzi
+  364  ls
+  365  pwd
+  366  clear
+  367  mkdir git-basic-excersises
+  368  ls
+  369  clear
+  370  cd git-basic-excersises/
+  371  ls -a
+  372  ls
+  373  git init
+  374  ls
+  375  ls -a
+  376  git status
+  377  touch README.md
+  378  ls -a
+  379  git status
+  380  git log
+  381  git add 
+  382  git add -h
+  383  git add .
+  384  git status
+  385  git reset
+  386  git status
+  387  git add .
+  388  git commit -m "initial commit"
+  389  gitl log
+  390  git log
+  391  q
+  392  nano README.md
+  393  git status
+  394  cat README.md
+  395  git status
+  396  git status
+  397  git add .
+  398  git commit -m "added some text"
+  399  git status
+  400  cd ../
+  401  rmdir git-basic-excersises/
+  402  ls
+  403  mkdir git-basic-exercises
+  404  cd git-basic-exercises/
+  405  git init
+  406  touch README.md
+  407  nano README.md 
+  408  GIT status
+  409  git add .
+  410  git commit
+  411  git status
+  412  git commit -m "initial commit"
+  413  git status
+  414  cd ../
+  415  cd git-basic-exercises/
+  416  touch README.md
+  417  git add .
+  418  git init
+  419  git add.
+  420  git add .
+  421  git commit -m "initial commit"
+  422  nano README.md 
+  423  git status
+  424  git add .
+  425  git status
+  426  git commit -m "second commit"
+  427  git status
+  428  nano README.md 
+  429  git add .
+  430  git commit -m "third commit"
+  431  git log
+  432  git checkout 67c327ade75aa3d7af7e4a15ea03a62f1e4a99eb
+  433  cat README.md
+  434  GIT checkout main
+  435  git checkout main
+  436  git checkout master
+  437  git branch
+  438  git branch "milkshake-flavours"
+  439  git branch
+  440  clear
+  441  git branch
+  442  git branch
+  443  git checkout milkshake-flavours 
+  444  git checkout
+  445  git branch
+  446  nano milkshakes.md
+  447  git status
+  448  git add .
+  449  git commit -m "added initial flavours"
+  450  git status
+  451  git log
+  452  git checkout master
+  453  git log
+  454  git checkout milkshake-flavours 
+  455  git log
+  456  checkout master
+  457  git checkout master
+  458  git status
+  459  git log
+  460  branch history
+  461  git branch history
+  462  git log
+  463  git checkout history 
+  464  git log
+  465  history > history.txt
